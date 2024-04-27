@@ -627,14 +627,14 @@ img {
   padding: 0;
   cursor: pointer;
   fill: #2e2f42;
- background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
- border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-x:focus,
 .btn-x:hover {
   background-color: #404bbf;
   border: none;
-   fill: #ffffff
+  fill: #ffffff;
 }
 .modal-title {
   font-weight: 500;
@@ -786,5 +786,4 @@ img {
 .icon-check {
 }
 .check-button {
- 
 }
